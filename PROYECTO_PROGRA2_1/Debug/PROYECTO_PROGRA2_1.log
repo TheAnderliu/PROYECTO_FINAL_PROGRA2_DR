@@ -1,0 +1,20 @@
+﻿Compilación iniciada a las 22/10/2018 11:01:39.
+     1>Proyecto "C:\Users\USER\Desktop\PROYECTO_PROGRA2_1\PROYECTO_PROGRA2_1\PROYECTO_PROGRA2_1.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib FormPrincipal.cpp
+         FormPrincipal.cpp
+     1>FormPrincipal.cpp(11): warning C4829: Parámetros posiblemente incorrectos para la función main. Utilice 'int main(Platform::Array<Platform::String^>^ argv)'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Desktop\PROYECTO_PROGRA2_1\Debug\PROYECTO_PROGRA2_1.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\PROYECTO_PROGRA2_1.FormN1.resources /ASSEMBLYRESOURCE:Debug\PROYECTO_PROGRA2_1.FormN2.resources /ASSEMBLYRESOURCE:Debug\PROYECTO_PROGRA2_1.FormN3.resources /ASSEMBLYRESOURCE:Debug\PROYECTO_PROGRA2_1.FormN4.resources /ASSEMBLYRESOURCE:Debug\PROYECTO_PROGRA2_1.FormN5.resources /ASSEMBLYRESOURCE:Debug\PROYECTO_PROGRA2_1.FormPrincipal.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Desktop\PROYECTO_PROGRA2_1\Debug\PROYECTO_PROGRA2_1.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\FormN1.obj
+         Debug\FormN2.obj
+         Debug\FormN3.obj
+         Debug\FormN4.obj
+         Debug\FormN5.obj
+         Debug\FormPrincipal.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         PROYECTO_PROGRA2_1.vcxproj -> C:\Users\USER\Desktop\PROYECTO_PROGRA2_1\Debug\PROYECTO_PROGRA2_1.exe
+     1>Compilación del proyecto terminada "C:\Users\USER\Desktop\PROYECTO_PROGRA2_1\PROYECTO_PROGRA2_1\PROYECTO_PROGRA2_1.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.86
