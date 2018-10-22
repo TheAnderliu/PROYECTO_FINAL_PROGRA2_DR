@@ -7,9 +7,9 @@
 
 using namespace System;
 using namespace System::Windows::Forms;[STAThread]
-void main(array<String^>^ arg)
+void main()
 {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false); 
-	Application::Run(gcnew PROYECTO_PROGRA2_1::FormN5()); //Project 1 es el nombre del proyecto
+	Application::Run(gcnew PROYECTO_PROGRA2_1::FormN1()); //Project 1 es el nombre del proyecto
 }

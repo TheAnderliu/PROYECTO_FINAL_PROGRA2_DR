@@ -78,14 +78,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Disco.cpp" />
+    <ClCompile Include="DiscoSpinning.cpp" />
     <ClCompile Include="FormN1.cpp" />
     <ClCompile Include="FormN2.cpp" />
     <ClCompile Include="FormN3.cpp" />
     <ClCompile Include="FormN4.cpp" />
     <ClCompile Include="FormN5.cpp" />
     <ClCompile Include="FormPrincipal.cpp" />
+    <ClCompile Include="Juego.cpp" />
+    <ClCompile Include="Jugador.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Disco.h" />
+    <ClInclude Include="DiscoSpinning.h" />
     <ClInclude Include="FormN1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -104,6 +110,9 @@
     <ClInclude Include="FormPrincipal.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Juego.h" />
+    <ClInclude Include="Jugador.h" />
+    <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FormN1.resx">
