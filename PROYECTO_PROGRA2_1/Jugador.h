@@ -29,6 +29,7 @@ public:
 	void set_v(int _v);
 	int get_v();
 
+	Drawing::Rectangle Get_Jugador();
 	void mover(char _tecla);
 	void mostrar();
 

@@ -23,15 +23,8 @@ Class PROYECTO_PROGRA2_1.FormN1: AutoLayout, AnsiClass, Class, Public, BeforeFie
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
-    GenerarDiscoSpinning(BufferedGraphics, Int32, Int32): PrivateScope, Public, HideBySig
-    PersonajeSinPresionarAbajo(BufferedGraphics): PrivateScope, Public, HideBySig
-    PresionarAbajo(BufferedGraphics): PrivateScope, Public, HideBySig
-    PresionarDerecha(BufferedGraphics): PrivateScope, Public, HideBySig
-    SinPresionarDerecha(BufferedGraphics): PrivateScope, Public, HideBySig
-    PresionarIzquierda(BufferedGraphics): PrivateScope, Public, HideBySig
-    SinPresionarIzquierda(BufferedGraphics): PrivateScope, Public, HideBySig
-    PresionarArriba(BufferedGraphics): PrivateScope, Public, HideBySig
-    SinPresionarArriba(BufferedGraphics): PrivateScope, Public, HideBySig
+    ManejaC(): PrivateScope, Public, HideBySig
+    PintarDiscos(BufferedGraphics): PrivateScope, Public, HideBySig
 Class PROYECTO_PROGRA2_1.FormN2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

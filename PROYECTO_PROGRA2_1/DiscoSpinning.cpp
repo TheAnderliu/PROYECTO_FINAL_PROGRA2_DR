@@ -17,11 +17,11 @@ CDiscoSpinning::~CDiscoSpinning()
 
 void CDiscoSpinning::mover(){
 
-	if (x + dx + ancho >= 70 || x + dx <= 0)
+	if (x + dx + ancho >= 668 || x + dx <= 71)
 	{
 		dx *= -1;
 	}
-	else if (y + dy + alto >= 30 || y + dy <= 0)
+	else if (y + dy + alto >= 645 || y + dy <= 71)
 	{
 		dy *= -1;
 	}
@@ -54,3 +54,9 @@ void CDiscoSpinning::mostrar(){
 }
 
 
+Drawing::Rectangle CDiscoSpinning::get_Disco(){
+
+	return Drawing::Rectangle(x, y, ancho, alto);
+
+
+}

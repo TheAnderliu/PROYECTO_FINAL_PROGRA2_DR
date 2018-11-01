@@ -1,4 +1,8 @@
 #pragma once
+
+using namespace System;
+using namespace System::Drawing;
+
 class CDisco
 {
 protected:
@@ -26,9 +30,11 @@ public:
 	void set_alto(int _alto);
 	int get_alto();
 
+	Drawing::Rectangle get_Disco();
+
 	virtual void mostrar(){};
 	virtual void mover(){};
-	
+
 
 
 };

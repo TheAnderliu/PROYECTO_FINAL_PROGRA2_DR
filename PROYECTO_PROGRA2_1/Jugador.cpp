@@ -110,7 +110,7 @@ void CJugador::mover(char _tecla){
 
 void CJugador::mostrar(){
 
-	int temp;
+	
 	if (x+dx<71)
 	{
 		x = 69;
@@ -133,3 +133,13 @@ void CJugador::mostrar(){
 }
 
 
+
+Drawing::Rectangle CJugador::Get_Jugador(){
+
+
+	return Drawing::Rectangle(x, y, ancho, alto);
+
+
+
+
+}

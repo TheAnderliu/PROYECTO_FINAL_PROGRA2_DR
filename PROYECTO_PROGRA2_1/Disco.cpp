@@ -1,18 +1,19 @@
-#include "stdafx.h"
+#include "Disco.h"
 
-
+using namespace System;
+using namespace System::Drawing;
 
 CDisco::CDisco(){
 	//Random f;
 
 	//dx = f.Next(-1, 2);
 	//dy = f.Next(-1, 2);
-	x = 20;
-	y = 20;
-	dx = 1;
-	dy = 1;
-	ancho = 4;
-	alto = 4;
+	x = 300;
+	y = 300;
+	dx = 0;
+	dy = 0;
+	ancho = 80;
+	alto = 75;
 
 }
 CDisco::~CDisco(){}
@@ -85,5 +86,14 @@ void CDisco::set_alto(int _alto){
 int CDisco::get_alto(){
 	return alto;
 
+
+}
+
+
+Drawing::Rectangle CDisco::get_Disco(){
+
+	
+		
+	return Rectangle(x, y, ancho, alto);
 
 }
